@@ -6,20 +6,20 @@ Originally built to improve Claude’s ability to interact with external systems
 
 MCP follows a client-server architecture where:
 
-MCP clients (e.g., Claude Desktop) request information and execute tasks.
+MCP clients (e.g., Github Copilot) request information and execute tasks.
 MCP servers provide access to external tools and data sources.
 Host applications use MCP to communicate between models and tools.
 
 
 ## Description
-The PR review system automates code analysis and documentation using Claude Desktop and Notion.
+The PR review system automates code analysis and documentation using Github Copilot and Notion.
 
 Here’s a concise breakdown of the pipeline:
 
 Environment setup: Load the GitHub and Notion credentials.
-Server initialization: Start an MCP server to communicate with Claude Desktop.
+Server initialization: Start an MCP server to communicate with Github Copilot.
 Fetching PR data: Retrieve the PR changes and metadata from GitHub.
-Code analysis: Claude Desktop directly analyzes code changes (no separate tool needed).
+Code analysis: Github Copilot directly analyzes code changes (no separate tool needed).
 Notion documentation: Save the analysis results to Notion for tracking.
 
 ## Conclusion
