@@ -11,4 +11,4 @@ wheels/
 client.py
 hello.py
 test_client.py
-pr_reviewer/.env
+.env
